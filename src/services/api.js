@@ -1,5 +1,5 @@
-const API_BASE = (import.meta.env.VITE_API_BASE);
-const IMGBB_KEY = import.meta.env.VITE_IMGBB_KEY;
+const API_BASE = "https://server-abdurrahman482937-abdurrahman01.vercel.app";
+const IMGBB_KEY = "f818b993efd7b453ce7fba64bd897530";
 
 function getAuthHeaders(user) {
   const headers = { "Content-Type": "application/json" };
