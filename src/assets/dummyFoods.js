@@ -1,0 +1,80 @@
+export const dummyFoods = [
+  {
+    _id: "food-001",
+    name: "Vegetable Curry (Serves 4)",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Rina Akter", email: "rina@example.com", photo: "https://i.pravatar.cc/100?img=12" },
+    quantityText: "Serves 4",
+    quantityNumber: 4,
+    pickupLocation: "Dhanmondi, Dhaka",
+    expireDate: "2025-11-20T18:00:00.000Z",
+    notes: "Packed in microwave-safe containers. Vegetarian.",
+    status: "Available",
+    createdAt: "2025-11-10T08:00:00.000Z"
+  },
+  {
+    _id: "food-002",
+    name: "Chicken Biryani (Serves 2)",
+    image: "https://images.unsplash.com/photo-1604908177520-6a1ad0d7b7c0?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Arif Hossain", email: "arif@example.com", photo: "https://i.pravatar.cc/100?img=5" },
+    quantityText: "Serves 2",
+    quantityNumber: 2,
+    pickupLocation: "Gulshan 2, Dhaka",
+    expireDate: "2025-11-18T13:00:00.000Z",
+    notes: "Contains onion/garlic. Needs reheating.",
+    status: "Available",
+    createdAt: "2025-11-09T12:30:00.000Z"
+  },
+  {
+    _id: "food-003",
+    name: "Mixed Fruit Box (6 portions)",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Tania Rahman", email: "tania@example.com", photo: "https://i.pravatar.cc/100?img=20" },
+    quantityText: "6 portions",
+    quantityNumber: 6,
+    pickupLocation: "Mirpur, Dhaka",
+    expireDate: "2025-11-16T10:00:00.000Z",
+    notes: "Fresh cut fruits. Best before 24 hours.",
+    status: "Available",
+    createdAt: "2025-11-09T09:00:00.000Z"
+  },
+  {
+    _id: "food-004",
+    name: "Vegetable Samosa Box (8 pcs)",
+    image: "https://images.unsplash.com/photo-1601050690592-0a7f7d5f6c28?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Saleh Khan", email: "saleh@example.com", photo: "https://i.pravatar.cc/100?img=8" },
+    quantityText: "8 pcs",
+    quantityNumber: 8,
+    pickupLocation: "Uttara Sector 7",
+    expireDate: "2025-11-17T15:00:00.000Z",
+    notes: "Vegetarian, fried. Consume within 12 hours.",
+    status: "Available",
+    createdAt: "2025-11-08T16:10:00.000Z"
+  },
+  {
+    _id: "food-005",
+    name: "Egg Curry with Rice (Serves 3)",
+    image: "https://images.unsplash.com/photo-1543353071-087092ec393a?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Mehnaz Sultana", email: "mehnaz@example.com", photo: "https://i.pravatar.cc/100?img=2" },
+    quantityText: "Serves 3",
+    quantityNumber: 3,
+    pickupLocation: "Banani, Dhaka",
+    expireDate: "2025-11-19T19:00:00.000Z",
+    notes: "Contains eggs and spices. Needs reheating.",
+    status: "Available",
+    createdAt: "2025-11-10T07:00:00.000Z"
+  },
+  {
+    _id: "food-006",
+    name: "Vegetable Pasta (Serves 2)",
+    image: "https://images.unsplash.com/photo-1512058564366-c9e3f0c8a6b1?q=80&w=1200&auto=format&fit=crop",
+    donator: { name: "Hasan Ali", email: "hasan@example.com", photo: "https://i.pravatar.cc/100?img=14" },
+    quantityText: "Serves 2",
+    quantityNumber: 2,
+    pickupLocation: "Mohakhali",
+    expireDate: "2025-11-18T17:00:00.000Z",
+    notes: "Cream-based. Keep chilled until pickup.",
+    status: "Available",
+    createdAt: "2025-11-09T18:45:00.000Z"
+  }
+];
